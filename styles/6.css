@@ -1,0 +1,22 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+p {
+    text-align: center;
+}
+
+.model {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.order {
+    font-size: 20px;
+}
+
+.touch {
+    text-decoration: underline;
+}
