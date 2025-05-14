@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>12f</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .flex-container {
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgb(113, 44, 249);
+            height: 50px;
+            color: white;
+        }
+
+        .left {
+            margin-left: 10px;
+        }
+
+        .right {
+            margin-right: 10px;
+        }
+
+
+
+        .right-button {
+            padding: 10px 10px 10px 10px;
+            background-color: rgb(113, 44, 249);
+            border: none;
+            border: 1px solid white;
+            color: white;
+            flex: 1;
+        }
+
+        .middle-input {
+            padding: 10px 100px 10px 10px;
+            border-radius: 50px;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flex-container">
+        <div class="left">Home</div>
+        <div class="middle">
+            <input class="middle-input" type="text" placeholder="Search">
+        </div>
+        <div class="right">
+            <button class="right-button">Download</button>
+        </div>
+    </div>
+</body>
+
+</html>
