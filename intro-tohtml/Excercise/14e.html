@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>14e</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Roboto", sans-serif;
+
+        }
+
+        .header {
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: white;
+            margin: 0;
+            position: fixed;
+            left: 0;
+            right: 0;
+        }
+
+        .profile {
+            display: flex;
+            align-items: center;
+            margin-left: 30px;
+
+        }
+
+        img {
+            height: 30px;
+            height: 30px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .profile p {
+            font-weight: bold;
+        }
+
+        .add-friend {
+            background-color: dodgerblue;
+            color: white;
+            border: none;
+            padding: 7px 7px 7px 7px;
+            border-radius: 5px;
+        }
+
+        .message {
+            background-color: rgb(216, 214, 214);
+            color: black;
+            border: none;
+            padding: 7px 7px 7px 7px;
+            border-radius: 5px;
+
+        }
+    </style>
+</head>
+
+<body style="height: 3000px; background-color: gray;">
+    <div class="header">
+        <div class="profile">
+            <img src="/images/cat.jpg" alt="">
+            <p>Oliver Cat</p>
+        </div>
+        <div style="margin-right: 30px;" class="friends">
+            <button class="add-friend">Add Friend</button>
+            <button class="message">Message</button>
+        </div>
+    </div>
+</body>
+
+</html>

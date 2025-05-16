@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>14f</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        body{
+            height: 3000px;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Roboto", sans-serif;
+
+        }
+
+        .photos {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: rgb(30, 28, 28);
+            position: fixed;
+            width: 70px;
+            top: 0;
+            bottom: 0;
+        }
+
+        .photo {
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            margin-top: 5px;
+        }
+
+        .cat1 {
+            margin-top: 10px;
+        }
+
+        .info {
+            margin-left: 70px;
+            color: gray;
+            background-color: rgb(83, 80, 80);
+            width: 140px;
+            padding: 10px 10px;
+            position: fixed;
+            top: 0;
+            bottom: 0;
+        }
+
+        .heading {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: white;
+        }
+
+        .tags {
+            margin-top: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="photos">
+        <img class="photo cat1" src="/images/cat.jpg" alt="">
+        <img class="photo cat2" src="/images/cat2.jpg" alt="">
+        <img class="photo dog" src="/images/dog.jpg" alt="">
+    </div>
+    <div class="info">
+        <div class="heading">
+            <p>INFO</p>
+            <p>+</p>
+        </div>
+        <p class="tags">#new-videos</p>
+        <p class="tags">#updates</p>
+        <p class="tags">#faq</p>
+
+    </div>
+</body>
+
+</html>
